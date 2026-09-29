@@ -1,8 +1,9 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
+// Vercel serves from the domain root, so it needs absolute asset paths.
+// GitHub Pages / other subpath hosts keep relative paths.
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: process.env.VERCEL ? '/' : './',
 })
