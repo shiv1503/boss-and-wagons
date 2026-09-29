@@ -26,15 +26,15 @@ export const BRAND = {
  * Easily editable placeholders per instructions.
  */
 export const CONTACT_INFO: ContactConfig = {
-  phone: "+91 XXXXX XXXXX",
-  whatsapp: "+91 XXXXX XXXXX",
-  whatsappNumberDigits: "919999999999", // Editable WhatsApp number digits for direct wa.me link
+  phone: "+91 90193 35030 ",
+  whatsapp: "+91 90193 35030 ",
+  whatsappNumberDigits: "919019335030", // Editable WhatsApp number digits for direct wa.me link
   email: "hello@yourdomain.com",
-  address: "Your Studio Address, City, State",
-  openingHours: "Mon–Sun | XX AM – XX PM",
-  instagram: "@yourinstagram",
-  instagramUrl: "https://instagram.com/yourinstagram",
-  mapsUrl: "https://maps.google.com/?q=Your+Studio+Address",
+  address: "Boss and Wagons, 1024, Block 4 Stage 1, Kalyan Nagar, Bengaluru(560043), Karanataka, India",
+  openingHours: "Mon–Sun | 10 AM – 8:30 PM",
+  instagram: "@bossandwagons",
+  instagramUrl: "https://instagram.com/bossandwagons",
+  mapsUrl: "https://maps.app.goo.gl/cyTuLkcD8HA1WGVz5",
 };
 
 export interface ServiceItem {
